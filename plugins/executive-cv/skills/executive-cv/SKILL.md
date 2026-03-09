@@ -111,6 +111,10 @@ The CV must clearly demonstrate:
 - Emphasise: financial strategy, reporting, fundraising, compliance, risk management
 - Keywords: FP&A, cash flow, audit, treasury, IFRS, tax planning, investor relations, due diligence
 
+**Executive Head Teacher / MAT CEO:**
+- Emphasise: school improvement, multi-site leadership, Ofsted outcomes, budget management, safeguarding, community engagement, curriculum strategy
+- Keywords: multi-academy trust, pupil outcomes, Progress 8, curriculum design, DfE, governance, safeguarding, SEND, staff development, parental engagement, school improvement plan, trust-wide strategy
+
 ### Keyword Strategy
 
 - Group keywords into the Core Competencies clusters
