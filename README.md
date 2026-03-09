@@ -1,6 +1,6 @@
 # Claude Code Skills
 
-Custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that extend Claude's capabilities with domain-specific expertise.
+Custom skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) packaged as a Claude Code Plugin Marketplace.
 
 ## Skills
 
@@ -15,22 +15,31 @@ Create professional, ATS-friendly executive CVs for C-suite and senior leadershi
 - Role-specific guidance for CTO, CEO, COO, CFO
 - Discovery questions to extract strategic impact from candidates
 
-[View skill &rarr;](executive-cv/)
+[View skill &rarr;](plugins/executive-cv/skills/executive-cv/)
 
 ## Installation
 
-### Claude Code (CLI)
+### Claude Code (CLI) — Marketplace
 
-Add a skill to your project:
+Add this repository as a plugin marketplace, then install a plugin:
 
 ```bash
-claude skill add /path/to/skills/executive-cv
+/plugin marketplace add The-Fractionals/skills
+/plugin install executive-cv@fractionals-skills
+```
+
+### Claude Code (CLI) — Direct
+
+Add a skill directly from a local clone:
+
+```bash
+claude skill add /path/to/skills/plugins/executive-cv/skills/executive-cv
 ```
 
 Or add as a user-level skill available across all projects:
 
 ```bash
-claude skill add --user /path/to/skills/executive-cv
+claude skill add --user /path/to/skills/plugins/executive-cv/skills/executive-cv
 ```
 
 ### Claude Desktop / Cowork
