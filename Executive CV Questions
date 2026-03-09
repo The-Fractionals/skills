@@ -1,0 +1,19 @@
+Executive Discovery QuestionsInstruct your AI to ask these 5 specific questions (one at a time or as a block) and per role before it begins drafting.
+1. The Scope & Scale (The "Big Picture")
+	•	"What was the specific P&L or budget you were directly responsible for? (e.g., $10M, $500M, $2B?)"
+	•	"What was the total headcount of your organization, including direct and indirect reports?"
+2. The "Before & After" (The Mandate)
+	•	"What was the 'burning platform' when you stepped into this role? Were you hired to fix a failing department, scale a high-growth unit, or transform a legacy business?"
+	•	"What does the company look like now compared to the day you started?"
+3. The "Hard Metrics" (The ROI)
+	•	"Can you quantify your top three achievements? Think in terms of Revenue Growth (%), Cost Savings ($), or Efficiency Gains (Time/Resources)."
+	•	"If you hadn't been in the role, what would the company have lost or missed out on?"
+4. The "Human Capital" (The Leadership)
+	•	"Executives don't work in a vacuum. How did you evolve the culture or talent? (e.g., Did you reduce turnover by 20%? Did you mentor three people into C-Suite roles elsewhere?)"
+5. The 2026 "Future-Proof" Check
+	•	"How have you integrated AI or emerging technologies into your strategic workflow or the company's product roadmap?"
+	•	"What is your 'Board-level' focus? (e.g., ESG initiatives, M&A due diligence, or Investor Relations?)"
+
+Implementation Logic for your AI Prompt
+You can embed this instruction into your "System Message":
+Logic Trigger: "If the user provides a brief or 'weak' job description (e.g., 'I was the CFO at X Corp'), do NOT write the CV yet. Instead, respond with: 'To position you for a Tier-1 Executive role, I need to extract your strategic impact. Could you answer these 3-4 targeted questions regarding your tenure at [Company Name]?' and then present the Probing Questions."
