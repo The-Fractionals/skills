@@ -130,6 +130,23 @@ The CV must clearly demonstrate:
 4. **Validate** — Run the docx validation script
 5. **Present** — Save to outputs and present to the user
 
+## Template & Styles
+
+Use the `Executive_CV_Template_UK.docx` template in this skill directory. Apply the following Word styles when generating the document:
+
+| Style Name | Use For |
+|------------|---------|
+| `Title` | CV title / document heading |
+| `Full Name` | Candidate's full name (large, prominent) |
+| `Person Details` | Contact line (city, phone, email, LinkedIn) |
+| `Heading 1` | Not typically used (reserved) |
+| `Heading 2` | Section headings (EXECUTIVE PROFILE, CAREER HISTORY, etc.) |
+| `Heading 3` | Job title / company name within Career History |
+| `Scope` | Role scope lines (budget, headcount, reporting line, geography) |
+| `Normal` | Body text (executive profile paragraphs, descriptions) |
+| `List Paragraph` | Achievement bullet points |
+| `Strong1` | Bold emphasis within body text |
+
 ## Design Specification
 
 - Colour palette: Navy headers (#1B365D), slate body text (#4A5568), light blue-grey backgrounds (#F0F4F8) for competency/achievement boxes

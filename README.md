@@ -15,7 +15,7 @@ Create professional, ATS-friendly executive CVs for C-suite and senior leadershi
 - Role-specific guidance for CTO, CEO, COO, CFO
 - Discovery questions to extract strategic impact from candidates
 
-[View skill &rarr;](plugins/executive-cv/skills/executive-cv/)
+[View skill &rarr;](executive-cv/)
 
 ## Installation
 
@@ -33,13 +33,13 @@ Add this repository as a plugin marketplace, then install a plugin:
 Add a skill directly from a local clone:
 
 ```bash
-claude skill add /path/to/skills/plugins/executive-cv/skills/executive-cv
+claude skill add /path/to/skills/executive-cv
 ```
 
 Or add as a user-level skill available across all projects:
 
 ```bash
-claude skill add --user /path/to/skills/plugins/executive-cv/skills/executive-cv
+claude skill add --user /path/to/skills/executive-cv
 ```
 
 ### Claude Desktop / Cowork

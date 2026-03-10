@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "executive-cv",
-      "source": "./plugins/executive-cv",
+      "source": "./executive-cv",
       "description": "Create professional, ATS-friendly executive CVs for C-suite and senior leadership roles following UK best practice."
     }
   ]
